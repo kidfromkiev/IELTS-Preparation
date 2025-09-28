@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>IELTS Preparation</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0; padding: 0;
+    background: linear-gradient(135deg, #5a47ab, #0a2a66);
+    color: #fff;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+  }
+  nav {
+    background: #3b2a94;
+    width: 200px;
+    padding: 1rem;
+    box-sizing: border-box;
+    overflow-y: auto;
+    flex-shrink: 0;
+  }
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  nav ul li {
+    margin: 1rem 0;
+  }
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+  }
+  main {
+    flex-grow: 1;
+    background: white;
+    color: black;
+    padding: 1rem;
+    overflow-y: auto;
+  }
+  header {
+    display: none; /* Hide header since nav is always visible */
+  }
+  /* Make sidebar smaller on very small screens */
+  @media (max-width: 480px) {
+    nav {
+      width: 150px;
+      padding: 0.5rem;
+    }
+    nav ul li {
+      margin: 0.7rem 0;
+    }
+  }
+</style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="#listening">Listening Test</a></li>
+      <li><a href="#reading">Reading Test</a></li>
+      <li><a href="#writing">Writing Test</a></li>
+      <li><a href="#speaking">Speaking Answer Cards</a></li>
+      <li><a href="#progress">Track Progress</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section id="listening">
+      <h2>Listening Test</h2>
+      <p>Start your listening practice here.</p>
+    </section>
+    <section id="reading">
+      <h2>Reading Test</h2>
+      <p>Challenge your reading skills here.</p>
+    </section>
+    <section id="writing">
+      <h2>Writing Test</h2>
+      <p>Practice your writing with AI help.</p>
+    </section>
+    <section id="speaking">
+      <h2>Speaking Answer Cards</h2>
+      <p>Use these cards for speaking practice.</p>
+    </section>
+    <section id="progress">
+      <h2>Track Progress</h2>
+      <p>See your completed tests and saved works.</p>
+    </section>
+  </main>
+</body>
+</html>
